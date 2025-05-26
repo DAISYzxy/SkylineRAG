@@ -20,10 +20,10 @@ def jsonl_to_dataframe(file_path):
 
 
 
-url = "https://gpt-api.hkust-gz.edu.cn/v1/chat/completions"
+url = ""
 headers = { 
     "Content-Type": "application/json", 
-    "Authorization": "e33317e035514306ba0e31238dd3a2b74c5b9349ad5e441982e4194b4f42ab53"
+    "Authorization": ""
 }
 
 def get_gpt_response(query):

@@ -10,7 +10,6 @@ Cost-Effective Retrieval-Augmented Generation for Long-Context Question Answerin
 <!-- - [Introduction](#Introduction) -->
 - [Installation](#Installation)
 - [Test](#Test)
-- [Evaluation](#Evaluation)
 
 
 # Installation
@@ -26,4 +25,4 @@ To download the test data, open the [Google Drive link](https://drive.google.com
 
 
 # Test
-Test the performance of SkylineRAG, download the generated answers for each task and set and place it under the SkylineRAG folder. Then open and run Evaluation.ipynb.
+Test the performance of SkylineRAG, download the generated answers for each task and set and place it under the SkylineRAG folder. Then open and run Evaluation.ipynb. Please note that several files require API calls to Large Language Models (LLMs); ensure the necessary setup is in place before running the code.
